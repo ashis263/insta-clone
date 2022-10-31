@@ -1,0 +1,49 @@
+header{
+    
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    border: 1rem;
+}
+
+header div img{
+    width: 8vw;  
+    padding-top: 1rem; 
+}
+
+header .logo{
+    display: flex;
+}
+
+header div ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header div ul li i{
+    justify-items: flex-end;
+}
+
+
+header div nav img{
+    width: 2vw;
+    border-radius: 1rem;
+}
+
+.search-box{
+    background-color: rgba(239, 239, 239, 5);
+    height: 1.2rem;
+    border-radius: 1rem;
+    justify-items: center;
+}
+
+.search-box i{
+    padding-left: .5rem;
+    
+}
+
+.search-box input{
+    background-color: rgba(239, 239, 239, 5);
+    border:none;
+    border-radius: 1rem;
+}
