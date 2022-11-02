@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [InstaController::class, 'index']);
+Route::get('/profile', [InstaController::class, 'profile']);

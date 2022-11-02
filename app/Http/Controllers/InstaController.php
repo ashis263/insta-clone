@@ -9,4 +9,8 @@ class InstaController extends Controller
     public function index() {
         return view('index');
     }
+
+    public function profile() {
+        return view('profile');
+    }
 }

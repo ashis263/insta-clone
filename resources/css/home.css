@@ -14,6 +14,13 @@ header{
     position: static;
     align-items: center;
     min-height: 10px;
+    
+
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
 }
 
 header .first{
@@ -100,7 +107,7 @@ main{
 
 
 .stories{
-    margin: 20px 0px 15px 0px;
+    margin: 60px 0px 15px 0px;
     height: 100px;
     border: 1px solid black;
     border-radius: .5rem;
@@ -235,7 +242,7 @@ main{
 .profile-section-div{
     display: flex;
     justify-content: space-between;
-    margin: 60px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 
@@ -306,6 +313,10 @@ main{
 }
 
 @media (max-width: 975px){
+    header{
+        top:0;
+    }
+
     .menu-icon,.search-box, .logo-nav{
         display: none;
     }
